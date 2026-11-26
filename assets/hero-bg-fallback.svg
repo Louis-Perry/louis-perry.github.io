@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 960" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Vibrant mountain and sunset horizon backdrop">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f2d14" />
+      <stop offset="35%" stop-color="#1e5222" />
+      <stop offset="68%" stop-color="#b55918" />
+      <stop offset="100%" stop-color="#f29b38" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="72%" cy="48%" r="45%">
+      <stop offset="0%" stop-color="#ffca3a" stop-opacity="0.58" />
+      <stop offset="52%" stop-color="#eb8424" stop-opacity="0.24" />
+      <stop offset="100%" stop-color="#0f2b07" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="farPeak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#296326" stop-opacity="0.94" />
+      <stop offset="100%" stop-color="#143d14" stop-opacity="0.98" />
+    </linearGradient>
+    <linearGradient id="midPeak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c4f19" />
+      <stop offset="100%" stop-color="#0e2c0b" />
+    </linearGradient>
+    <linearGradient id="nearRidge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12360e" />
+      <stop offset="100%" stop-color="#091f07" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="960" fill="url(#sky)" />
+  <rect width="1600" height="960" fill="url(#sunGlow)" />
+
+  <g fill="none" stroke="#fffaf0" stroke-opacity="0.08" stroke-width="1.2">
+    <path d="M-80 280 Q 320 200 720 270 T 1680 220" />
+    <path d="M-80 340 Q 380 260 790 325 T 1680 285" />
+    <path d="M-80 410 Q 420 340 860 390 T 1680 360" />
+  </g>
+
+  <path d="M0 640 L180 515 L360 570 L590 420 L820 530 L1080 385 L1330 495 L1500 440 L1600 480 L1600 960 L0 960 Z" fill="url(#farPeak)" />
+  <path d="M590 420 L665 462 L585 485 Z" fill="#f59e36" fill-opacity="0.26" />
+  <path d="M1080 385 L1170 432 L1065 458 Z" fill="#ffca3a" fill-opacity="0.3" />
+
+  <path d="M0 720 L240 595 L460 660 L740 520 L980 620 L1250 510 L1460 605 L1600 570 L1600 960 L0 960 Z" fill="url(#midPeak)" />
+  <path d="M0 805 Q 260 725 540 775 T 1120 745 T 1600 790 L1600 960 L0 960 Z" fill="url(#nearRidge)" />
+</svg>
